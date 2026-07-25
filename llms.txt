@@ -1,0 +1,22 @@
+# Concord Residential
+
+> Concord Residential is Kansas City's home service company, providing pressure washing, soft washing, and handyman services, with mobile car repair, gutter cleaning, window cleaning, seal coating, junk removal, and car detailing available across the Kansas City Metro. Licensed, insured, and locally owned.
+
+Concord Residential serves the Kansas City Metro area, including Overland Park, Lee's Summit, Blue Springs, Shawnee, and North Kansas City. The company offers free quotes and can be reached at (816) 539-5496.
+
+## Services
+
+- [Pressure Washing](https://www.theconcordresidential.com/#pressure-washing): Pressure washing and soft washing for siding, driveways, decks, and patios.
+- [Handyman Services](https://www.theconcordresidential.com/#handyman-services): General home repair and maintenance.
+- [Mobile Car Repair](https://www.theconcordresidential.com/#mobile-car-repair): On-site auto repair across the Kansas City Metro.
+- [Gutter Cleaning](https://www.theconcordresidential.com/#gutter-cleaning): Gutter and downspout cleaning.
+- [Window Cleaning](https://www.theconcordresidential.com/#window-cleaning): Interior and exterior window cleaning.
+- [Seal Coating](https://www.theconcordresidential.com/#seal-coating): Driveway and asphalt seal coating.
+- [Car Detailing](https://www.theconcordresidential.com/#car-detailing): Mobile car detailing.
+- [Junk Removal](https://www.theconcordresidential.com/#junk-removal): Residential junk removal.
+
+## Contact
+
+- Phone: (816) 539-5496
+- Website: https://www.theconcordresidential.com/
+- Service area: Kansas City Metro Area, Overland Park KS, Lee's Summit MO, North Kansas City MO, Shawnee KS, Blue Springs MO
