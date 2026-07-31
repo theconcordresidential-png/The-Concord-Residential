@@ -748,6 +748,8 @@ footer{background:var(--near-black); border-top:1px solid var(--line); padding:7
 @media(max-width:860px){.two-col{grid-template-columns:1fr;}}
 .check-list{list-style:none; margin:18px 0;}
 .check-list li{padding:10px 0 10px 30px; position:relative; border-bottom:1px solid var(--line); color:var(--off-white);}
+.check-list li a{color:inherit;}
+.check-list li a:hover{color:var(--green);}
 .check-list li::before{content:"\2713"; position:absolute; left:0; top:10px; color:var(--green); font-weight:700;}
 .process-steps{counter-reset:step; margin:20px 0;}
 .process-steps li{list-style:none; counter-increment:step; position:relative; padding:16px 0 16px 52px; border-bottom:1px solid var(--line);}
@@ -777,6 +779,10 @@ article.blog-body li{margin-bottom:8px;}
 .subpage-divider{border:none; border-top:1px solid var(--line); margin:0;}
 .jump-back{display:inline-block; margin-top:26px; font-family:var(--font-mono); font-size:12px; letter-spacing:.06em; text-transform:uppercase; color:var(--gray-dim);}
 .jump-back:hover{color:var(--green);}
+.breadcrumb-mini{display:flex; align-items:center; gap:8px; font-size:12.5px; color:var(--gray-dim); margin-bottom:14px;}
+.breadcrumb-mini a{color:var(--gray-dim);}
+.breadcrumb-mini a:hover{color:var(--green);}
+.breadcrumb-mini span{color:var(--gray-dim);}
 </style>
 
 <script type="application/ld+json">
@@ -1102,7 +1108,9 @@ article.blog-body li{margin-bottom:8px;}
 }
 .mega-cat:hover .mega-flyout{display:block;}
 .mega-flyout ul{list-style:none; margin-bottom:14px;}
-.mega-flyout li{font-size:13px; color:var(--gray); padding:5px 0; border-bottom:1px solid var(--line);}
+.mega-flyout li{font-size:13px; color:var(--gray); padding:0; border-bottom:1px solid var(--line);}
+.mega-flyout li a{display:block; padding:5px 0; color:inherit;}
+.mega-flyout li a:hover{color:var(--green);}
 .mega-flyout .btn{width:100%; justify-content:center;}
 .mobile-services-toggle{
   width:100%; text-align:left; background:none; border:none; color:var(--white);
@@ -1114,6 +1122,325 @@ article.blog-body li{margin-bottom:8px;}
 .mobile-services-list a{font-size:14px; color:var(--gray); padding:8px 0;}
 </style>
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "serviceType": "Window Cleaning",
+  "name": "Window Cleaning | Concord Residential",
+  "description": "Interior and exterior window cleaning that gets both sides of the glass, not just what you can see from the street.",
+  "provider": {
+    "@type": "HomeAndConstructionBusiness",
+    "name": "Concord Residential",
+    "telephone": "+1-816-539-5496",
+    "areaServed": "Kansas City Metro Area"
+  },
+  "areaServed": "Kansas City Metro Area",
+  "url": "https://www.theconcordresidential.com/#window-cleaning"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type":"ListItem","position":1,"name":"Home","item":"https://www.theconcordresidential.com/"},
+    {"@type":"ListItem","position":2,"name":"Services","item":"https://www.theconcordresidential.com/index.html#services"},
+    {"@type":"ListItem","position":3,"name":"Pressure Washing","item":"https://www.theconcordresidential.com/#pressure-washing"},
+    {"@type":"ListItem","position":4,"name":"Window Cleaning","item":"https://www.theconcordresidential.com/#window-cleaning"}
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "serviceType": "Soft Wash Cleaning",
+  "name": "Soft Wash Cleaning | Concord Residential",
+  "description": "Low pressure soft washing for roofs, siding, and stucco, using a cleaning solution instead of high PSI to lift algae and mildew safely.",
+  "provider": {
+    "@type": "HomeAndConstructionBusiness",
+    "name": "Concord Residential",
+    "telephone": "+1-816-539-5496",
+    "areaServed": "Kansas City Metro Area"
+  },
+  "areaServed": "Kansas City Metro Area",
+  "url": "https://www.theconcordresidential.com/#soft-wash-cleaning"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type":"ListItem","position":1,"name":"Home","item":"https://www.theconcordresidential.com/"},
+    {"@type":"ListItem","position":2,"name":"Services","item":"https://www.theconcordresidential.com/index.html#services"},
+    {"@type":"ListItem","position":3,"name":"Pressure Washing","item":"https://www.theconcordresidential.com/#pressure-washing"},
+    {"@type":"ListItem","position":4,"name":"Soft Wash Cleaning","item":"https://www.theconcordresidential.com/#soft-wash-cleaning"}
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "serviceType": "Concrete Exterior Cleaning",
+  "name": "Concrete Exterior Cleaning | Concord Residential",
+  "description": "Concrete cleaning for driveways, patios, sidewalks, and garage floors, including oil stain treatment and optional sealing.",
+  "provider": {
+    "@type": "HomeAndConstructionBusiness",
+    "name": "Concord Residential",
+    "telephone": "+1-816-539-5496",
+    "areaServed": "Kansas City Metro Area"
+  },
+  "areaServed": "Kansas City Metro Area",
+  "url": "https://www.theconcordresidential.com/#concrete-exterior-cleaning"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type":"ListItem","position":1,"name":"Home","item":"https://www.theconcordresidential.com/"},
+    {"@type":"ListItem","position":2,"name":"Services","item":"https://www.theconcordresidential.com/index.html#services"},
+    {"@type":"ListItem","position":3,"name":"Pressure Washing","item":"https://www.theconcordresidential.com/#pressure-washing"},
+    {"@type":"ListItem","position":4,"name":"Concrete Exterior Cleaning","item":"https://www.theconcordresidential.com/#concrete-exterior-cleaning"}
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "serviceType": "Deck Washing & Staining",
+  "name": "Deck Washing & Staining | Concord Residential",
+  "description": "Deck washing and staining, including wood brightening and back brushed stain application for lasting protection.",
+  "provider": {
+    "@type": "HomeAndConstructionBusiness",
+    "name": "Concord Residential",
+    "telephone": "+1-816-539-5496",
+    "areaServed": "Kansas City Metro Area"
+  },
+  "areaServed": "Kansas City Metro Area",
+  "url": "https://www.theconcordresidential.com/#deck-washing-staining"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type":"ListItem","position":1,"name":"Home","item":"https://www.theconcordresidential.com/"},
+    {"@type":"ListItem","position":2,"name":"Services","item":"https://www.theconcordresidential.com/index.html#services"},
+    {"@type":"ListItem","position":3,"name":"Pressure Washing","item":"https://www.theconcordresidential.com/#pressure-washing"},
+    {"@type":"ListItem","position":4,"name":"Deck Washing & Staining","item":"https://www.theconcordresidential.com/#deck-washing-staining"}
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "serviceType": "Fence Washing & Staining",
+  "name": "Fence Washing & Staining | Concord Residential",
+  "description": "Fence washing and staining for wood fences, plus rinse and scrub cleaning for chain link.",
+  "provider": {
+    "@type": "HomeAndConstructionBusiness",
+    "name": "Concord Residential",
+    "telephone": "+1-816-539-5496",
+    "areaServed": "Kansas City Metro Area"
+  },
+  "areaServed": "Kansas City Metro Area",
+  "url": "https://www.theconcordresidential.com/#fence-washing-staining"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type":"ListItem","position":1,"name":"Home","item":"https://www.theconcordresidential.com/"},
+    {"@type":"ListItem","position":2,"name":"Services","item":"https://www.theconcordresidential.com/index.html#services"},
+    {"@type":"ListItem","position":3,"name":"Pressure Washing","item":"https://www.theconcordresidential.com/#pressure-washing"},
+    {"@type":"ListItem","position":4,"name":"Fence Washing & Staining","item":"https://www.theconcordresidential.com/#fence-washing-staining"}
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "serviceType": "Drywall Repair",
+  "name": "Drywall Repair | Concord Residential",
+  "description": "Drywall repair for holes, cracks, and nail pops, including texture matching and priming so the patch blends in.",
+  "provider": {
+    "@type": "HomeAndConstructionBusiness",
+    "name": "Concord Residential",
+    "telephone": "+1-816-539-5496",
+    "areaServed": "Kansas City Metro Area"
+  },
+  "areaServed": "Kansas City Metro Area",
+  "url": "https://www.theconcordresidential.com/#drywall-repair"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type":"ListItem","position":1,"name":"Home","item":"https://www.theconcordresidential.com/"},
+    {"@type":"ListItem","position":2,"name":"Services","item":"https://www.theconcordresidential.com/index.html#services"},
+    {"@type":"ListItem","position":3,"name":"Handyman Services","item":"https://www.theconcordresidential.com/#handyman-services"},
+    {"@type":"ListItem","position":4,"name":"Drywall Repair","item":"https://www.theconcordresidential.com/#drywall-repair"}
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "serviceType": "Painting Touch-Ups",
+  "name": "Painting Touch-Ups | Concord Residential",
+  "description": "Interior painting touch ups with sheen matched color, hand cut edges, and feathered blending.",
+  "provider": {
+    "@type": "HomeAndConstructionBusiness",
+    "name": "Concord Residential",
+    "telephone": "+1-816-539-5496",
+    "areaServed": "Kansas City Metro Area"
+  },
+  "areaServed": "Kansas City Metro Area",
+  "url": "https://www.theconcordresidential.com/#painting-touch-ups"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type":"ListItem","position":1,"name":"Home","item":"https://www.theconcordresidential.com/"},
+    {"@type":"ListItem","position":2,"name":"Services","item":"https://www.theconcordresidential.com/index.html#services"},
+    {"@type":"ListItem","position":3,"name":"Handyman Services","item":"https://www.theconcordresidential.com/#handyman-services"},
+    {"@type":"ListItem","position":4,"name":"Painting Touch-Ups","item":"https://www.theconcordresidential.com/#painting-touch-ups"}
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "serviceType": "Fixture & Faucet Installation",
+  "name": "Fixture & Faucet Installation | Concord Residential",
+  "description": "Fixture and faucet installation, including old connection checks, sealed threads, and a full leak test before we leave.",
+  "provider": {
+    "@type": "HomeAndConstructionBusiness",
+    "name": "Concord Residential",
+    "telephone": "+1-816-539-5496",
+    "areaServed": "Kansas City Metro Area"
+  },
+  "areaServed": "Kansas City Metro Area",
+  "url": "https://www.theconcordresidential.com/#fixture-faucet-installation"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type":"ListItem","position":1,"name":"Home","item":"https://www.theconcordresidential.com/"},
+    {"@type":"ListItem","position":2,"name":"Services","item":"https://www.theconcordresidential.com/index.html#services"},
+    {"@type":"ListItem","position":3,"name":"Handyman Services","item":"https://www.theconcordresidential.com/#handyman-services"},
+    {"@type":"ListItem","position":4,"name":"Fixture & Faucet Installation","item":"https://www.theconcordresidential.com/#fixture-faucet-installation"}
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "serviceType": "Door & Window Repair",
+  "name": "Door & Window Repair | Concord Residential",
+  "description": "Door and window repair, including hinge adjustment, weatherstripping, glazing, and screen replacement.",
+  "provider": {
+    "@type": "HomeAndConstructionBusiness",
+    "name": "Concord Residential",
+    "telephone": "+1-816-539-5496",
+    "areaServed": "Kansas City Metro Area"
+  },
+  "areaServed": "Kansas City Metro Area",
+  "url": "https://www.theconcordresidential.com/#door-window-repair"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type":"ListItem","position":1,"name":"Home","item":"https://www.theconcordresidential.com/"},
+    {"@type":"ListItem","position":2,"name":"Services","item":"https://www.theconcordresidential.com/index.html#services"},
+    {"@type":"ListItem","position":3,"name":"Handyman Services","item":"https://www.theconcordresidential.com/#handyman-services"},
+    {"@type":"ListItem","position":4,"name":"Door & Window Repair","item":"https://www.theconcordresidential.com/#door-window-repair"}
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "serviceType": "Carpentry & Trim Work",
+  "name": "Carpentry & Trim Work | Concord Residential",
+  "description": "Trim carpentry with coped corners, filled nail holes, and caulked gaps for a finished, built in look.",
+  "provider": {
+    "@type": "HomeAndConstructionBusiness",
+    "name": "Concord Residential",
+    "telephone": "+1-816-539-5496",
+    "areaServed": "Kansas City Metro Area"
+  },
+  "areaServed": "Kansas City Metro Area",
+  "url": "https://www.theconcordresidential.com/#carpentry-trim-work"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type":"ListItem","position":1,"name":"Home","item":"https://www.theconcordresidential.com/"},
+    {"@type":"ListItem","position":2,"name":"Services","item":"https://www.theconcordresidential.com/index.html#services"},
+    {"@type":"ListItem","position":3,"name":"Handyman Services","item":"https://www.theconcordresidential.com/#handyman-services"},
+    {"@type":"ListItem","position":4,"name":"Carpentry & Trim Work","item":"https://www.theconcordresidential.com/#carpentry-trim-work"}
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "serviceType": "Furniture Assembly & Mounting",
+  "name": "Furniture Assembly & Mounting | Concord Residential",
+  "description": "Furniture assembly and wall mounting, including stud finding and weight rated anchors for TVs, shelves, and furniture.",
+  "provider": {
+    "@type": "HomeAndConstructionBusiness",
+    "name": "Concord Residential",
+    "telephone": "+1-816-539-5496",
+    "areaServed": "Kansas City Metro Area"
+  },
+  "areaServed": "Kansas City Metro Area",
+  "url": "https://www.theconcordresidential.com/#furniture-assembly-mounting"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type":"ListItem","position":1,"name":"Home","item":"https://www.theconcordresidential.com/"},
+    {"@type":"ListItem","position":2,"name":"Services","item":"https://www.theconcordresidential.com/index.html#services"},
+    {"@type":"ListItem","position":3,"name":"Handyman Services","item":"https://www.theconcordresidential.com/#handyman-services"},
+    {"@type":"ListItem","position":4,"name":"Furniture Assembly & Mounting","item":"https://www.theconcordresidential.com/#furniture-assembly-mounting"}
+  ]
+}
+</script>
 </head>
 <body>
 
@@ -1144,9 +1471,9 @@ article.blog-body li{margin-bottom:8px;}
               <div class="mega-flyout">
                 <div class="mega-flyout-inner">
                   <ul>
-                    <li>Pressure Washing</li><li>Soft Wash Cleaning</li><li>Concrete Exterior Cleaning</li>
-                    <li>Deck Washing &amp; Staining</li><li>Fence Washing &amp; Staining</li>
-                    <li>Gutter Cleaning</li><li>Window Cleaning</li>
+                    <li><a href="#pressure-washing">Pressure Washing</a></li><li><a href="#soft-wash-cleaning">Soft Wash Cleaning</a></li><li><a href="#concrete-exterior-cleaning">Concrete Exterior Cleaning</a></li>
+                    <li><a href="#deck-washing-staining">Deck Washing &amp; Staining</a></li><li><a href="#fence-washing-staining">Fence Washing &amp; Staining</a></li>
+                    <li><a href="#gutter-cleaning-service">Gutter Cleaning</a></li><li><a href="#window-cleaning">Window Cleaning</a></li>
                   </ul>
                   <a href="#pressure-washing" class="page-link btn btn-outline btn-sm">View Category</a>
                 </div>
@@ -1157,8 +1484,9 @@ article.blog-body li{margin-bottom:8px;}
               <div class="mega-flyout">
                 <div class="mega-flyout-inner">
                   <ul>
-                    <li>Miscellaneous Help</li><li>Drywall Repair</li><li>Painting Touch-Ups</li>
-                    <li>Fixture &amp; Faucet Installation</li><li>Door &amp; Window Repair</li><li>Carpentry &amp; Trim Work</li>
+                    <li><a href="#handyman-services">Miscellaneous Help</a></li><li><a href="#drywall-repair">Drywall Repair</a></li><li><a href="#painting-touch-ups">Painting Touch-Ups</a></li>
+                    <li><a href="#fixture-faucet-installation">Fixture &amp; Faucet Installation</a></li><li><a href="#door-window-repair">Door &amp; Window Repair</a></li><li><a href="#carpentry-trim-work">Carpentry &amp; Trim Work</a></li>
+                    <li><a href="#furniture-assembly-mounting">Furniture Assembly &amp; Mounting</a></li>
                   </ul>
                   <a href="#handyman-services" class="page-link btn btn-outline btn-sm">View Category</a>
                 </div>
@@ -1243,6 +1571,7 @@ article.blog-body li{margin-bottom:8px;}
 </nav>
 
 <!-- ============ HERO ============ -->
+<div id="homeView">
 <section class="hero" id="home">
   <div class="hero-grid"></div>
   <div class="hero-scan"></div>
@@ -1269,9 +1598,6 @@ article.blog-body li{margin-bottom:8px;}
       <div class="hero-photo-tag"><span class="dot"></span>Real Job Photo</div>
       <div class="hero-photo-caption">Deck: Before and After Pressure Washing</div>
     </div>
-  </div>
-</section>
-
   </div>
 </section>
 
@@ -1647,6 +1973,7 @@ article.blog-body li{margin-bottom:8px;}
     </div>
   </div>
 </section>
+</div>
 
 <section id="pressure-washing" class="anchor-offset page-view">
 
@@ -1664,14 +1991,14 @@ article.blog-body li{margin-bottom:8px;}
       <p style="color:var(--gray); font-size:16px; line-height:1.75; margin-bottom:20px;">Dirt, algae, and grime build up fast in Kansas City weather. We use the right amount of pressure for each surface, so your driveway gets a strong clean and your siding gets a gentle one. This is our main service, and it covers most of what a home needs on the outside.</p>
       <h2 style="font-size:24px; margin-bottom:6px;">Services</h2>
       <ul class="check-list"><li>Pressure Washing</li>
-<li>Gutter Cleaning</li>
-<li>Interior &amp; Exterior Window Cleaning</li>
-<li>Soft Wash Cleaning</li>
-<li>Concrete Exterior Cleaning</li>
-<li>Deck Washing</li>
-<li>Deck Staining</li>
-<li>Fence Washing</li>
-<li>Fence Staining</li></ul>
+<li><a href="#gutter-cleaning-service">Gutter Cleaning</a></li>
+<li><a href="#window-cleaning">Interior &amp; Exterior Window Cleaning</a></li>
+<li><a href="#soft-wash-cleaning">Soft Wash Cleaning</a></li>
+<li><a href="#concrete-exterior-cleaning">Concrete Exterior Cleaning</a></li>
+<li><a href="#deck-washing-staining">Deck Washing</a></li>
+<li><a href="#deck-washing-staining">Deck Staining</a></li>
+<li><a href="#fence-washing-staining">Fence Washing</a></li>
+<li><a href="#fence-washing-staining">Fence Staining</a></li></ul>
       
       <div style="border-bottom:1px solid var(--line); padding:20px 0;"><h2 style="font-size:17px; margin-bottom:8px;">What is the difference between pressure washing and soft washing?</h2><p style="color:var(--gray); font-size:15px;">Pressure washing uses strong water pressure on tough surfaces like concrete. Soft washing uses lower pressure and a cleaning solution for softer surfaces like siding and roofs, so it does not cause damage.</p></div><div style="border-bottom:1px solid var(--line); padding:20px 0;"><h2 style="font-size:17px; margin-bottom:8px;">How often should I get my house washed?</h2><p style="color:var(--gray); font-size:15px;">Most homes in Kansas City do well with one wash a year. Homes in the shade or near trees may need it every six to nine months.</p></div>
     </div>
@@ -1712,6 +2039,214 @@ article.blog-body li{margin-bottom:8px;}
 </section>
 <a href="#home" class="jump-back wrap" style="display:block; padding:0 0 40px;">Back to home</a>
 </section>
+<section id="window-cleaning" class="anchor-offset page-view">
+
+<section class="service-hero">
+  <div class="wrap">
+    <div class="breadcrumb-mini"><a href="#services">Services</a><span>/</span><a href="#pressure-washing">Pressure Washing</a><span>/</span><span>Window Cleaning</span></div>
+    <h2>Window Cleaning in Kansas City</h2>
+    <p class="lead">Streak free windows, inside and out, done the right way every time.</p>
+    <a href="#contact" class="btn btn-primary">Get a Free Quote</a><a href="tel:+18165395496" class="btn btn-outline"><i class="fa-solid fa-phone"></i> (816) 539-5496</a>
+  </div>
+</section>
+<section>
+  <div class="wrap two-col">
+    <div>
+      <h3>How We Wash Windows</h3>
+      <p>We scrub each pane with a soft cleaning pad soaked in a mild soap solution first. This loosens dirt and bug residue before a squeegee ever touches the glass.</p>
+      <h3>The Squeegee Pass</h3>
+      <p>We pull the squeegee in one long, overlapping stroke instead of short choppy ones. Short strokes are what leave the streaks you usually see on windows washed at home.</p>
+      <h3>Screens And Tracks</h3>
+      <p>Screens come out and get rinsed separately so dust and pollen don't just blow back onto a clean window. Tracks get wiped or vacuumed out too, since dirty tracks are the first thing people notice up close.</p>
+      <h3>Why We Avoid Direct Sun</h3>
+      <p>Cleaning solution dries too fast in direct sunlight and leaves spots behind before we can squeegee it off. We work in the shade or early in the day whenever we can.</p>
+      <h3>Interior Windows</h3>
+      <p>Drop cloths go down before we start, and we work carefully around furniture and blinds so nothing gets bumped or wet.</p>
+    </div>
+    <div>
+      <div class="sidebar-card reveal">
+        <h2>Ready for a free quote?</h2>
+        <p>Tell us about your project and we will get back to you within one business day with pricing.</p>
+        <a href="#contact" class="btn btn-primary" style="width:100%; justify-content:center;">Request a Quote</a>
+        <p style="margin-top:16px;">Or call/text <a href="tel:+18165395496" style="color:var(--green);">(816) 539-5496</a></p>
+      </div>
+      <div style="margin-top:24px;">
+        <h2 style="font-size:16px; margin-bottom:10px;">Other services</h2>
+        <div class="related-services"><a href="#soft-wash-cleaning">Soft Wash Cleaning</a>
+<a href="#concrete-exterior-cleaning">Concrete Exterior Cleaning</a>
+<a href="#deck-washing-staining">Deck Washing & Staining</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+<a href="#pressure-washing" class="jump-back wrap" style="display:block; padding:0 0 40px;">Back to Pressure Washing</a>
+</section>
+<section id="soft-wash-cleaning" class="anchor-offset page-view">
+
+<section class="service-hero">
+  <div class="wrap">
+    <div class="breadcrumb-mini"><a href="#services">Services</a><span>/</span><a href="#pressure-washing">Pressure Washing</a><span>/</span><span>Soft Wash Cleaning</span></div>
+    <h2>Soft Wash Cleaning in Kansas City</h2>
+    <p class="lead">Low pressure cleaning that lifts algae and mildew without harming delicate surfaces.</p>
+    <a href="#contact" class="btn btn-primary">Get a Free Quote</a><a href="tel:+18165395496" class="btn btn-outline"><i class="fa-solid fa-phone"></i> (816) 539-5496</a>
+  </div>
+</section>
+<section>
+  <div class="wrap two-col">
+    <div>
+      <h3>What Makes It Different From Pressure Washing</h3>
+      <p>Soft washing uses low pressure, usually under 500 PSI, combined with a cleaning solution instead of brute force. It's built for surfaces that a high pressure blast would damage.</p>
+      <h3>The Solution We Use</h3>
+      <p>Our mix is mostly water with a small amount of sodium hypochlorite, the same active ingredient used in pool cleaners, along with a surfactant that helps it cling to a vertical wall instead of running straight off.</p>
+      <h3>Letting It Dwell</h3>
+      <p>We let the solution sit on the surface for five to ten minutes. That gives it time to break down algae and mildew at the root instead of just knocking off what's on the surface.</p>
+      <h3>Best Surfaces For Soft Washing</h3>
+      <p>Roofs, vinyl siding, stucco, and painted wood all do better with a soft wash than a hard blast. High pressure on these materials can crack panels or strip paint.</p>
+      <h3>Rinsing It Clean</h3>
+      <p>Once the dwell time is up, we rinse everything with plain water until no soap residue is left. Metal fixtures and hardware get an extra rinse, since leftover solution can leave spotting behind.</p>
+    </div>
+    <div>
+      <div class="sidebar-card reveal">
+        <h2>Ready for a free quote?</h2>
+        <p>Tell us about your project and we will get back to you within one business day with pricing.</p>
+        <a href="#contact" class="btn btn-primary" style="width:100%; justify-content:center;">Request a Quote</a>
+        <p style="margin-top:16px;">Or call/text <a href="tel:+18165395496" style="color:var(--green);">(816) 539-5496</a></p>
+      </div>
+      <div style="margin-top:24px;">
+        <h2 style="font-size:16px; margin-bottom:10px;">Other services</h2>
+        <div class="related-services"><a href="#window-cleaning">Window Cleaning</a>
+<a href="#concrete-exterior-cleaning">Concrete Exterior Cleaning</a>
+<a href="#deck-washing-staining">Deck Washing & Staining</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+<a href="#pressure-washing" class="jump-back wrap" style="display:block; padding:0 0 40px;">Back to Pressure Washing</a>
+</section>
+<section id="concrete-exterior-cleaning" class="anchor-offset page-view">
+
+<section class="service-hero">
+  <div class="wrap">
+    <div class="breadcrumb-mini"><a href="#services">Services</a><span>/</span><a href="#pressure-washing">Pressure Washing</a><span>/</span><span>Concrete Exterior Cleaning</span></div>
+    <h2>Concrete Exterior Cleaning in Kansas City</h2>
+    <p class="lead">Driveways, walkways, and patios cleaned deep, not just rinsed on top.</p>
+    <a href="#contact" class="btn btn-primary">Get a Free Quote</a><a href="tel:+18165395496" class="btn btn-outline"><i class="fa-solid fa-phone"></i> (816) 539-5496</a>
+  </div>
+</section>
+<section>
+  <div class="wrap two-col">
+    <div>
+      <h3>The Right Amount Of Pressure</h3>
+      <p>Concrete can handle more pressure than almost any other surface, so we run these jobs between 2,500 and 3,500 PSI depending on how much buildup there is.</p>
+      <h3>Surface Cleaner Attachment</h3>
+      <p>Instead of a single wand, we use a surface cleaner that spins two nozzles in a circle. It cleans evenly and avoids the zebra stripe marks a handheld wand can leave behind.</p>
+      <h3>Treating Oil And Grease Stains</h3>
+      <p>Oil stains don't come out with water pressure alone. We pre-treat these spots with a degreaser and let it sit before washing, which breaks the oil down instead of just spreading it around.</p>
+      <h3>Hot Water When It's Needed</h3>
+      <p>For garage floors and heavy grease buildup, hot water cuts through grime faster and with less scrubbing than cold water alone.</p>
+      <h3>Sealing After The Wash</h3>
+      <p>Once the concrete is clean and fully dry, we can apply a sealant that helps repel future stains and makes the next cleaning easier.</p>
+    </div>
+    <div>
+      <div class="sidebar-card reveal">
+        <h2>Ready for a free quote?</h2>
+        <p>Tell us about your project and we will get back to you within one business day with pricing.</p>
+        <a href="#contact" class="btn btn-primary" style="width:100%; justify-content:center;">Request a Quote</a>
+        <p style="margin-top:16px;">Or call/text <a href="tel:+18165395496" style="color:var(--green);">(816) 539-5496</a></p>
+      </div>
+      <div style="margin-top:24px;">
+        <h2 style="font-size:16px; margin-bottom:10px;">Other services</h2>
+        <div class="related-services"><a href="#window-cleaning">Window Cleaning</a>
+<a href="#soft-wash-cleaning">Soft Wash Cleaning</a>
+<a href="#deck-washing-staining">Deck Washing & Staining</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+<a href="#pressure-washing" class="jump-back wrap" style="display:block; padding:0 0 40px;">Back to Pressure Washing</a>
+</section>
+<section id="deck-washing-staining" class="anchor-offset page-view">
+
+<section class="service-hero">
+  <div class="wrap">
+    <div class="breadcrumb-mini"><a href="#services">Services</a><span>/</span><a href="#pressure-washing">Pressure Washing</a><span>/</span><span>Deck Washing & Staining</span></div>
+    <h2>Deck Washing & Staining in Kansas City</h2>
+    <p class="lead">A two step process that cleans the wood and protects it for years, not months.</p>
+    <a href="#contact" class="btn btn-primary">Get a Free Quote</a><a href="tel:+18165395496" class="btn btn-outline"><i class="fa-solid fa-phone"></i> (816) 539-5496</a>
+  </div>
+</section>
+<section>
+  <div class="wrap two-col">
+    <div>
+      <h3>Washing Before Staining</h3>
+      <p>Stain won't hold onto dirty or graying wood, so every job starts with a wash. We use low pressure to avoid splintering the grain, since wood is softer than it looks under a pressure washer.</p>
+      <h3>Wood Brightener</h3>
+      <p>After washing, we apply a wood brightener that neutralizes the tannins causing that gray, weathered look. It brings the natural color of the wood back before any stain goes on.</p>
+      <h3>Letting It Dry Fully</h3>
+      <p>Wood needs to dry all the way through before staining, usually twenty four to forty eight hours depending on the weather. Staining over damp wood traps moisture underneath and the stain fails early.</p>
+      <h3>Applying The Stain</h3>
+      <p>We apply stain with a sprayer for even coverage, then back brush it into the grain by hand so it soaks in instead of sitting on top. This is what keeps a stain job from peeling.</p>
+      <h3>Choosing The Right Stain</h3>
+      <p>Solid stains cover more of the wood grain and last longer, while semi transparent stains let more of the natural wood show through. We'll walk you through which one fits your deck.</p>
+    </div>
+    <div>
+      <div class="sidebar-card reveal">
+        <h2>Ready for a free quote?</h2>
+        <p>Tell us about your project and we will get back to you within one business day with pricing.</p>
+        <a href="#contact" class="btn btn-primary" style="width:100%; justify-content:center;">Request a Quote</a>
+        <p style="margin-top:16px;">Or call/text <a href="tel:+18165395496" style="color:var(--green);">(816) 539-5496</a></p>
+      </div>
+      <div style="margin-top:24px;">
+        <h2 style="font-size:16px; margin-bottom:10px;">Other services</h2>
+        <div class="related-services"><a href="#window-cleaning">Window Cleaning</a>
+<a href="#soft-wash-cleaning">Soft Wash Cleaning</a>
+<a href="#concrete-exterior-cleaning">Concrete Exterior Cleaning</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+<a href="#pressure-washing" class="jump-back wrap" style="display:block; padding:0 0 40px;">Back to Pressure Washing</a>
+</section>
+<section id="fence-washing-staining" class="anchor-offset page-view">
+
+<section class="service-hero">
+  <div class="wrap">
+    <div class="breadcrumb-mini"><a href="#services">Services</a><span>/</span><a href="#pressure-washing">Pressure Washing</a><span>/</span><span>Fence Washing & Staining</span></div>
+    <h2>Fence Washing & Staining in Kansas City</h2>
+    <p class="lead">The same careful process we use on decks, built for vertical wood and chain link.</p>
+    <a href="#contact" class="btn btn-primary">Get a Free Quote</a><a href="tel:+18165395496" class="btn btn-outline"><i class="fa-solid fa-phone"></i> (816) 539-5496</a>
+  </div>
+</section>
+<section>
+  <div class="wrap two-col">
+    <div>
+      <h3>Wood Fences</h3>
+      <p>Wood fences get washed at low pressure, brightened, and stained the same way a deck is, since the wood itself behaves the same whether it's standing up or laying flat.</p>
+      <h3>Chain Link Fences</h3>
+      <p>Chain link doesn't take stain, but it still collects dirt, algae, and rust streaks over time. We rinse and scrub these clean with a lower pressure setting to avoid bending the links.</p>
+      <h3>Getting Into Every Gap</h3>
+      <p>Fence lines have a lot of corners, posts, and gaps that get missed with a quick spray. We work section by section instead of rushing down the length of the fence.</p>
+      <h3>Protecting What's On The Other Side</h3>
+      <p>Fences often sit right next to a neighbor's yard or garden. We're careful with overspray and let you know ahead of time if a section needs extra care.</p>
+    </div>
+    <div>
+      <div class="sidebar-card reveal">
+        <h2>Ready for a free quote?</h2>
+        <p>Tell us about your project and we will get back to you within one business day with pricing.</p>
+        <a href="#contact" class="btn btn-primary" style="width:100%; justify-content:center;">Request a Quote</a>
+        <p style="margin-top:16px;">Or call/text <a href="tel:+18165395496" style="color:var(--green);">(816) 539-5496</a></p>
+      </div>
+      <div style="margin-top:24px;">
+        <h2 style="font-size:16px; margin-bottom:10px;">Other services</h2>
+        <div class="related-services"><a href="#window-cleaning">Window Cleaning</a>
+<a href="#soft-wash-cleaning">Soft Wash Cleaning</a>
+<a href="#concrete-exterior-cleaning">Concrete Exterior Cleaning</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+<a href="#pressure-washing" class="jump-back wrap" style="display:block; padding:0 0 40px;">Back to Pressure Washing</a>
+</section>
 <section id="handyman-services" class="anchor-offset page-view">
 
 <section class="service-hero">
@@ -1728,12 +2263,12 @@ article.blog-body li{margin-bottom:8px;}
       <p style="color:var(--gray); font-size:16px; line-height:1.75; margin-bottom:20px;">From a leaky faucet to a full list of small fixes, our handyman team handles the jobs that pile up. We send experienced, background-checked pros who show up on time and treat your home with respect.</p>
       <h2 style="font-size:24px; margin-bottom:6px;">Services</h2>
       <ul class="check-list"><li>Miscellaneous Help</li>
-<li>Drywall Repair</li>
-<li>Painting Touch-Ups</li>
-<li>Fixture &amp; Faucet Installation</li>
-<li>Door &amp; Window Repair</li>
-<li>Carpentry &amp; Trim Work</li>
-<li>Furniture Assembly &amp; Mounting</li></ul>
+<li><a href="#drywall-repair">Drywall Repair</a></li>
+<li><a href="#painting-touch-ups">Painting Touch-Ups</a></li>
+<li><a href="#fixture-faucet-installation">Fixture &amp; Faucet Installation</a></li>
+<li><a href="#door-window-repair">Door &amp; Window Repair</a></li>
+<li><a href="#carpentry-trim-work">Carpentry &amp; Trim Work</a></li>
+<li><a href="#furniture-assembly-mounting">Furniture Assembly &amp; Mounting</a></li></ul>
       
       <div style="border-bottom:1px solid var(--line); padding:20px 0;"><h2 style="font-size:17px; margin-bottom:8px;">What kind of jobs can your handymen handle?</h2><p style="color:var(--gray); font-size:15px;">Most home repairs that do not need a specialty licensed trade, like drywall, painting, carpentry, and fixture installs.</p></div><div style="border-bottom:1px solid var(--line); padding:20px 0;"><h2 style="font-size:17px; margin-bottom:8px;">Do I need a big list of repairs to book a handyman?</h2><p style="color:var(--gray); font-size:15px;">No. We are happy to help with one repair, though bundling a few small jobs into one visit is often the most efficient option.</p></div>
     </div>
@@ -1773,6 +2308,252 @@ article.blog-body li{margin-bottom:8px;}
   </details>
 </section>
 <a href="#home" class="jump-back wrap" style="display:block; padding:0 0 40px;">Back to home</a>
+</section>
+<section id="drywall-repair" class="anchor-offset page-view">
+
+<section class="service-hero">
+  <div class="wrap">
+    <div class="breadcrumb-mini"><a href="#services">Services</a><span>/</span><a href="#handyman-services">Handyman Services</a><span>/</span><span>Drywall Repair</span></div>
+    <h2>Drywall Repair in Kansas City</h2>
+    <p class="lead">Patches that disappear into the wall instead of standing out.</p>
+    <a href="#contact" class="btn btn-primary">Get a Free Quote</a><a href="tel:+18165395496" class="btn btn-outline"><i class="fa-solid fa-phone"></i> (816) 539-5496</a>
+  </div>
+</section>
+<section>
+  <div class="wrap two-col">
+    <div>
+      <h3>Sizing Up The Damage</h3>
+      <p>Nail pops, small holes, and cracked corners all get fixed differently. We look at the damage first so we're not putting a patch over a problem that will just come back.</p>
+      <h3>Cutting Back To A Clean Edge</h3>
+      <p>For holes, we cut the damaged drywall back to a clean square edge and add a backing board behind it, so the new patch has something solid to screw into.</p>
+      <h3>Taping And Coating</h3>
+      <p>We tape the seams and apply two to three thin coats of joint compound, sanding lightly between each one. Thick single coats are what cause cracking later on.</p>
+      <h3>Matching The Texture</h3>
+      <p>Most homes have some kind of texture on the wall, whether it's orange peel, knockdown, or smooth. We match it as closely as we can so the patch blends in under paint instead of standing out.</p>
+      <h3>Priming Before Paint</h3>
+      <p>A fresh patch soaks up paint differently than the rest of the wall until it's primed. We always prime first so the final coat looks even.</p>
+    </div>
+    <div>
+      <div class="sidebar-card reveal">
+        <h2>Ready for a free quote?</h2>
+        <p>Tell us about your project and we will get back to you within one business day with pricing.</p>
+        <a href="#contact" class="btn btn-primary" style="width:100%; justify-content:center;">Request a Quote</a>
+        <p style="margin-top:16px;">Or call/text <a href="tel:+18165395496" style="color:var(--green);">(816) 539-5496</a></p>
+      </div>
+      <div style="margin-top:24px;">
+        <h2 style="font-size:16px; margin-bottom:10px;">Other services</h2>
+        <div class="related-services"><a href="#painting-touch-ups">Painting Touch-Ups</a>
+<a href="#fixture-faucet-installation">Fixture & Faucet Installation</a>
+<a href="#door-window-repair">Door & Window Repair</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+<a href="#handyman-services" class="jump-back wrap" style="display:block; padding:0 0 40px;">Back to Handyman Services</a>
+</section>
+<section id="painting-touch-ups" class="anchor-offset page-view">
+
+<section class="service-hero">
+  <div class="wrap">
+    <div class="breadcrumb-mini"><a href="#services">Services</a><span>/</span><a href="#handyman-services">Handyman Services</a><span>/</span><span>Painting Touch-Ups</span></div>
+    <h2>Painting Touch-Ups in Kansas City</h2>
+    <p class="lead">Small fixes that actually match, not a patch that stands out.</p>
+    <a href="#contact" class="btn btn-primary">Get a Free Quote</a><a href="tel:+18165395496" class="btn btn-outline"><i class="fa-solid fa-phone"></i> (816) 539-5496</a>
+  </div>
+</section>
+<section>
+  <div class="wrap two-col">
+    <div>
+      <h3>Matching Sheen, Not Just Color</h3>
+      <p>Flat, eggshell, satin, and gloss all catch light differently. Getting the color right but the sheen wrong is the most common reason a touch up ends up looking off.</p>
+      <h3>Cleaning The Surface First</h3>
+      <p>Dust, grease, and grime keep new paint from sticking evenly. We clean the area before we ever open a can.</p>
+      <h3>Cutting In By Hand</h3>
+      <p>Edges, corners, and trim lines get cut in carefully by brush instead of rolled over, which keeps the lines sharp.</p>
+      <h3>Feathering The Edges</h3>
+      <p>We blend the new paint into the old by feathering the edges out thin, instead of stopping in a hard line that catches the light differently.</p>
+      <h3>Letting Each Coat Dry</h3>
+      <p>Rushing a second coat over a wet first coat causes lap marks and uneven color. We give each coat the time it needs before adding another.</p>
+    </div>
+    <div>
+      <div class="sidebar-card reveal">
+        <h2>Ready for a free quote?</h2>
+        <p>Tell us about your project and we will get back to you within one business day with pricing.</p>
+        <a href="#contact" class="btn btn-primary" style="width:100%; justify-content:center;">Request a Quote</a>
+        <p style="margin-top:16px;">Or call/text <a href="tel:+18165395496" style="color:var(--green);">(816) 539-5496</a></p>
+      </div>
+      <div style="margin-top:24px;">
+        <h2 style="font-size:16px; margin-bottom:10px;">Other services</h2>
+        <div class="related-services"><a href="#drywall-repair">Drywall Repair</a>
+<a href="#fixture-faucet-installation">Fixture & Faucet Installation</a>
+<a href="#door-window-repair">Door & Window Repair</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+<a href="#handyman-services" class="jump-back wrap" style="display:block; padding:0 0 40px;">Back to Handyman Services</a>
+</section>
+<section id="fixture-faucet-installation" class="anchor-offset page-view">
+
+<section class="service-hero">
+  <div class="wrap">
+    <div class="breadcrumb-mini"><a href="#services">Services</a><span>/</span><a href="#handyman-services">Handyman Services</a><span>/</span><span>Fixture & Faucet Installation</span></div>
+    <h2>Fixture & Faucet Installation in Kansas City</h2>
+    <p class="lead">Installed right the first time, with no leaks left behind.</p>
+    <a href="#contact" class="btn btn-primary">Get a Free Quote</a><a href="tel:+18165395496" class="btn btn-outline"><i class="fa-solid fa-phone"></i> (816) 539-5496</a>
+  </div>
+</section>
+<section>
+  <div class="wrap two-col">
+    <div>
+      <h3>Shutting Off The Water</h3>
+      <p>We shut the water off at the source, not just at the fixture, before anything gets disconnected. That keeps the job dry and avoids surprises.</p>
+      <h3>Checking The Old Connections</h3>
+      <p>Old supply lines and valves often have mineral buildup or corrosion. We check these before reusing them, since a bad connection is the most common cause of a leak after install.</p>
+      <h3>Sealing The Threads</h3>
+      <p>Every threaded connection gets plumber's tape or pipe dope before it goes back together. Skipping this step is how slow leaks start weeks later.</p>
+      <h3>Testing Before We Leave</h3>
+      <p>Once everything is hooked up, we run the water and check every connection with a dry paper towel. If there's a leak, even a small one, it shows up right away.</p>
+    </div>
+    <div>
+      <div class="sidebar-card reveal">
+        <h2>Ready for a free quote?</h2>
+        <p>Tell us about your project and we will get back to you within one business day with pricing.</p>
+        <a href="#contact" class="btn btn-primary" style="width:100%; justify-content:center;">Request a Quote</a>
+        <p style="margin-top:16px;">Or call/text <a href="tel:+18165395496" style="color:var(--green);">(816) 539-5496</a></p>
+      </div>
+      <div style="margin-top:24px;">
+        <h2 style="font-size:16px; margin-bottom:10px;">Other services</h2>
+        <div class="related-services"><a href="#drywall-repair">Drywall Repair</a>
+<a href="#painting-touch-ups">Painting Touch-Ups</a>
+<a href="#door-window-repair">Door & Window Repair</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+<a href="#handyman-services" class="jump-back wrap" style="display:block; padding:0 0 40px;">Back to Handyman Services</a>
+</section>
+<section id="door-window-repair" class="anchor-offset page-view">
+
+<section class="service-hero">
+  <div class="wrap">
+    <div class="breadcrumb-mini"><a href="#services">Services</a><span>/</span><a href="#handyman-services">Handyman Services</a><span>/</span><span>Door & Window Repair</span></div>
+    <h2>Door & Window Repair in Kansas City</h2>
+    <p class="lead">Sticking doors and drafty windows fixed at the source, not just papered over.</p>
+    <a href="#contact" class="btn btn-primary">Get a Free Quote</a><a href="tel:+18165395496" class="btn btn-outline"><i class="fa-solid fa-phone"></i> (816) 539-5496</a>
+  </div>
+</section>
+<section>
+  <div class="wrap two-col">
+    <div>
+      <h3>Why Doors Start Sticking</h3>
+      <p>Loose hinge screws are the most common cause, followed by wood swelling from humidity and a house settling slightly over time. We check all three before touching the door itself.</p>
+      <h3>Fixing It The Right Way</h3>
+      <p>If the door has swollen, we plane down the high spot instead of forcing the door to close, which just cracks the frame over time. If it's the hinges, we reset and tighten them first since that's the easier fix.</p>
+      <h3>Window Seals And Weatherstripping</h3>
+      <p>Old or cracked weatherstripping is behind most drafty windows. We replace it along with any glazing that has dried out and started to crack.</p>
+      <h3>Screens And Hardware</h3>
+      <p>Torn screens get rehung with new screening material, and stuck or broken window locks and cranks get replaced so the window opens and closes the way it should.</p>
+    </div>
+    <div>
+      <div class="sidebar-card reveal">
+        <h2>Ready for a free quote?</h2>
+        <p>Tell us about your project and we will get back to you within one business day with pricing.</p>
+        <a href="#contact" class="btn btn-primary" style="width:100%; justify-content:center;">Request a Quote</a>
+        <p style="margin-top:16px;">Or call/text <a href="tel:+18165395496" style="color:var(--green);">(816) 539-5496</a></p>
+      </div>
+      <div style="margin-top:24px;">
+        <h2 style="font-size:16px; margin-bottom:10px;">Other services</h2>
+        <div class="related-services"><a href="#drywall-repair">Drywall Repair</a>
+<a href="#painting-touch-ups">Painting Touch-Ups</a>
+<a href="#fixture-faucet-installation">Fixture & Faucet Installation</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+<a href="#handyman-services" class="jump-back wrap" style="display:block; padding:0 0 40px;">Back to Handyman Services</a>
+</section>
+<section id="carpentry-trim-work" class="anchor-offset page-view">
+
+<section class="service-hero">
+  <div class="wrap">
+    <div class="breadcrumb-mini"><a href="#services">Services</a><span>/</span><a href="#handyman-services">Handyman Services</a><span>/</span><span>Carpentry & Trim Work</span></div>
+    <h2>Carpentry & Trim Work in Kansas City</h2>
+    <p class="lead">Clean lines and tight joints, the kind of detail that gets noticed.</p>
+    <a href="#contact" class="btn btn-primary">Get a Free Quote</a><a href="tel:+18165395496" class="btn btn-outline"><i class="fa-solid fa-phone"></i> (816) 539-5496</a>
+  </div>
+</section>
+<section>
+  <div class="wrap two-col">
+    <div>
+      <h3>Measuring Before Cutting</h3>
+      <p>We measure twice before a single cut gets made. Trim work has almost no room for error, since a gap shows immediately once it's painted.</p>
+      <h3>Coped And Mitered Corners</h3>
+      <p>Inside corners get coped, cut to fit the profile of the adjoining piece, instead of just mitered, since coped joints hold up better as wood expands and contracts with the seasons. Outside corners get mitered for a clean point.</p>
+      <h3>Filling And Sanding</h3>
+      <p>Nail holes get filled with wood filler and sanded flush before paint or stain goes on, so the trim reads as one smooth piece instead of a row of visible nail heads.</p>
+      <h3>Caulking The Gaps</h3>
+      <p>Small gaps between trim and wall get caulked before painting. This is what gives trim that finished, built in look instead of looking like it was tacked on afterward.</p>
+    </div>
+    <div>
+      <div class="sidebar-card reveal">
+        <h2>Ready for a free quote?</h2>
+        <p>Tell us about your project and we will get back to you within one business day with pricing.</p>
+        <a href="#contact" class="btn btn-primary" style="width:100%; justify-content:center;">Request a Quote</a>
+        <p style="margin-top:16px;">Or call/text <a href="tel:+18165395496" style="color:var(--green);">(816) 539-5496</a></p>
+      </div>
+      <div style="margin-top:24px;">
+        <h2 style="font-size:16px; margin-bottom:10px;">Other services</h2>
+        <div class="related-services"><a href="#drywall-repair">Drywall Repair</a>
+<a href="#painting-touch-ups">Painting Touch-Ups</a>
+<a href="#fixture-faucet-installation">Fixture & Faucet Installation</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+<a href="#handyman-services" class="jump-back wrap" style="display:block; padding:0 0 40px;">Back to Handyman Services</a>
+</section>
+<section id="furniture-assembly-mounting" class="anchor-offset page-view">
+
+<section class="service-hero">
+  <div class="wrap">
+    <div class="breadcrumb-mini"><a href="#services">Services</a><span>/</span><a href="#handyman-services">Handyman Services</a><span>/</span><span>Furniture Assembly & Mounting</span></div>
+    <h2>Furniture Assembly & Mounting in Kansas City</h2>
+    <p class="lead">Built right and mounted safely, with the right hardware for your wall.</p>
+    <a href="#contact" class="btn btn-primary">Get a Free Quote</a><a href="tel:+18165395496" class="btn btn-outline"><i class="fa-solid fa-phone"></i> (816) 539-5496</a>
+  </div>
+</section>
+<section>
+  <div class="wrap two-col">
+    <div>
+      <h3>Following The Right Steps</h3>
+      <p>Flat pack furniture goes together in a specific order for a reason. Skipping ahead is how pieces end up warped or screws end up stripped, so we build in the order the manufacturer intended.</p>
+      <h3>Not Overtightening</h3>
+      <p>Particle board strips easily if a screw is driven in too far or too fast. We drive fasteners by feel, not just by running a drill until it stops.</p>
+      <h3>Finding What's Behind The Wall</h3>
+      <p>Before mounting anything heavy, we find the studs. A TV or shelf mounted into drywall alone, without hitting a stud or using the right anchor, is a matter of when it fails, not if.</p>
+      <h3>Rated Anchors For No Stud Situations</h3>
+      <p>When a stud isn't where we need it, we use anchors rated for the actual weight of what's being hung, not just whatever was left in the truck.</p>
+      <h3>Anti Tip Hardware</h3>
+      <p>For dressers and bookshelves, especially in homes with kids or pets, we install anti tip straps that anchor the furniture to the wall so it can't be pulled forward.</p>
+    </div>
+    <div>
+      <div class="sidebar-card reveal">
+        <h2>Ready for a free quote?</h2>
+        <p>Tell us about your project and we will get back to you within one business day with pricing.</p>
+        <a href="#contact" class="btn btn-primary" style="width:100%; justify-content:center;">Request a Quote</a>
+        <p style="margin-top:16px;">Or call/text <a href="tel:+18165395496" style="color:var(--green);">(816) 539-5496</a></p>
+      </div>
+      <div style="margin-top:24px;">
+        <h2 style="font-size:16px; margin-bottom:10px;">Other services</h2>
+        <div class="related-services"><a href="#drywall-repair">Drywall Repair</a>
+<a href="#painting-touch-ups">Painting Touch-Ups</a>
+<a href="#fixture-faucet-installation">Fixture & Faucet Installation</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+<a href="#handyman-services" class="jump-back wrap" style="display:block; padding:0 0 40px;">Back to Handyman Services</a>
 </section>
 <section id="mobile-car-repair" class="anchor-offset page-view">
 
